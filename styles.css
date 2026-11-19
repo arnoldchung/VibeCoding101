@@ -2,3 +2,5 @@
 
 
 .hero{padding-bottom:30px}.lesson{padding-top:28px;padding-bottom:32px;border-top:1px solid var(--line)}.steps{grid-template-columns:1fr 1fr}.lesson li{font-size:17px;line-height:1.9;margin-bottom:10px}.lesson ul,.lesson ol{padding-left:24px}@media(max-width:600px){.steps{grid-template-columns:1fr}}
+
+.version-links{display:flex;gap:16px;flex-wrap:wrap}

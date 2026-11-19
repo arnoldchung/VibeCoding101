@@ -5,10 +5,12 @@
 ## 온라인으로 열기
 
 - [수업 안내](https://arnoldchung.github.io/VibeCoding101/)
-- [세션 슬라이드](https://arnoldchung.github.io/VibeCoding101/session.html)
+- [Codex 세션](https://arnoldchung.github.io/VibeCoding101/session.html) · [설치 안내](docs/SETUP.md)
+- [Claude Code 세션](https://arnoldchung.github.io/VibeCoding101/session-claude.html) · [설치 안내](docs/SETUP-CLAUDE.md)
+- [Gemini CLI 세션](https://arnoldchung.github.io/VibeCoding101/session-gemini.html) · [설치 안내](docs/SETUP-GEMINI.md)
 - [시작 설문](https://www.menti.com/alt4urxjua9d)
 
-세션 슬라이드는 51장입니다. **이전·다음 버튼, 방향키, Space, 목차**로 이동하고 **F**로 전체 화면을 켜거나 끕니다.
+각 버전은 같은 150분 구성의 51장 슬라이드입니다. 사용할 도구 하나만 골라 해당 버전을 따라가세요. **이전·다음 버튼, 방향키, Space, 목차**로 이동하고 **F**로 전체 화면을 켜거나 끕니다.
 
 ## 오늘 배울 네 가지
 
@@ -38,16 +40,16 @@ Plan·Edit·Auto의 차이, Skills 마켓, Superpowers와 수업 관련 인기 S
 ## 준비물과 시작하기
 
 - **필수:** 노트북·충전기·인터넷·웹 브라우저·사용할 AI 계정·프로그램 설치 권한
-- **함께 설치:** VS Code, Node.js LTS, Codex CLI. 기본 시연은 이 경로입니다.
+- **함께 설치:** VS Code, Node.js LTS, 선택한 CLI 하나. Codex·Claude Code·Gemini CLI 전용 교안을 제공합니다.
 - **대체 선택:** Claude Code 또는 Gemini CLI가 이미 작동하면 해당 도구를 사용해도 됩니다. 세 도구를 모두 설치할 필요는 없습니다.
 - **선택:** GitHub 계정과 GitHub Desktop. 처음에는 로그인 없이 ZIP 다운로드로 참여할 수 있습니다.
 
-**[설치부터 첫 실행까지](docs/SETUP.md)**를 수업 중 함께 따라 합니다. 설치·로그인·폴더 준비를 이미 안다고 가정하지 않습니다. 사용할 AI 계정의 CLI 이용 가능 여부는 미리 확인하고, 수업에서는 브라우저 계정 로그인 경로를 사용합니다. 구독 로그인과 API 키 과금은 별개입니다.
+선택한 도구의 설치 안내를 수업 중 함께 따라 합니다. 기본 `session.html`과 `docs/SETUP.md`는 Codex 버전입니다. 설치·로그인·폴더 준비를 이미 안다고 가정하지 않습니다. 사용할 AI 계정의 CLI 이용 가능 여부는 미리 확인하고, 수업에서는 브라우저 계정 로그인 경로를 사용합니다. 구독 로그인과 API 키 과금은 별개입니다.
 
 1. VS Code 설치 → 저장소 ZIP 다운로드·압축 풀기
 2. VS Code에서 `exercises/minesweeper` 폴더 열기 → 새 터미널 열기
 3. Node.js LTS 설치 → node·npm 버전 확인
-4. Codex CLI 설치 → 로그인 → 프로젝트 설명 요청
+4. 선택한 CLI 설치 → 로그인 → 프로젝트 설명 요청
 5. 같은 폴더의 `index.html`을 브라우저로 열기
 
 설치가 5분 이상 막히면 짝과 함께 진행합니다. GitHub 기록은 110–120분에 시연하고 준비된 참가자는 따라 합니다. ZIP 수정본과 Clone 폴더는 별개이므로 수정 파일을 같은 상대 경로로 옮겨야 합니다. [GitHub 안내](docs/GITHUB.md)와 [150분 진행표](docs/SESSION.md)를 참고하세요.
@@ -89,7 +91,9 @@ VS Code에서 연 minesweeper 폴더를 기준으로 저장합니다. 예제는 
 | 경로 | 내용 |
 | --- | --- |
 | `index.html`, `styles.css` | 간결한 수업 안내 페이지 |
-| `session.html`, `session.css`, `session.js` | 화면 공유용 슬라이드 |
+| `session.html` | Codex 버전 슬라이드 |
+| `session-claude.html`, `session-gemini.html` | 도구별 전용 슬라이드 |
+| `session.css`, `session.js` | 세 버전이 공유하는 스타일과 이동 기능 |
 | `assets/mentimeter_qr_code.png` | 시작 설문 QR 원본 |
 | `docs/` | 설치·바이브 코딩·GitHub·150분 수업 진행 안내 |
 | `exercises/skills/` | Skill 제작 예제와 기록지 |
@@ -103,3 +107,15 @@ Clone 또는 ZIP 다운로드 후 `index.html`이나 `session.html`을 브라우
 GitHub Pages는 `main` 브랜치의 루트에서 배포됩니다. Push 후 온라인 반영까지는 시간이 걸릴 수 있습니다.
 
 MIT License.
+
+## 도구별 Skill 경로
+
+모두 VS Code에서 연 minesweeper 폴더 기준입니다.
+
+| 도구 | 내 Skill 저장 위치 | 사용 방법 |
+| --- | --- | --- |
+| Codex | `.agents/skills/game-check/SKILL.md` | `$game-check` |
+| Claude Code | `.claude/skills/game-check/SKILL.md` | `/game-check` |
+| Gemini CLI | `.gemini/skills/game-check/SKILL.md` | `/skills reload` 후 이름을 지정한 자연어 요청, 활성화 확인 |
+
+Gemini는 `.agents/skills/` 별칭도 지원해 기존 minesweeper-workshop을 읽을 수 있습니다. 같은 Skill을 두 경로에 중복 설치하지 않습니다. 자세한 단계는 각 전용 교안과 설치 안내를 따르세요.
