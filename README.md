@@ -54,10 +54,13 @@ Node.js 20 이상이 이미 있다면 루트에서 `npm test`로 지뢰찾기 �
 
 MIT License.
 
-## HTML 교안과 Mentimeter
+## 두 가지 HTML
 
-루트 `index.html`을 브라우저에서 열면 슬라이드 36개 내용을 주제별로 읽을 수 있습니다. 각 교안의 **강사용 진행 노트**를 누르면 발표자 메모가 펼쳐집니다.
+- `index.html`: 수업 구성·준비·자료 링크를 담은 간결한 저장소 안내
+- `session.html`: 화면 공유용 38장 슬라이드. 다음·이전 버튼, 방향키, Space, 목차로 이동합니다. F는 전체 화면입니다.
 
-Mentimeter 자리 표시는 시작 경험, GitHub 이해도, 자기 앱 아이디어의 세 곳에 있습니다. `index.html`에서 `menti-1`, `menti-2`, `menti-3`을 찾아 각 `menti-insertion-point`에 공유 링크 또는 공식 임베드 코드를 넣고 QR·참여 코드를 추가하세요. 현재는 실제 설문 연결이나 응답 수집이 없습니다.
+강사용 진행 노트는 포함하지 않습니다. Plan·Edit·Auto의 차이, Skills와 마켓, Superpowers 및 수업 관련 인기 Skills를 다룹니다. 도구별 모드 명칭과 권한은 다르며 출처 링크와 확인 날짜를 슬라이드에 표시했습니다.
 
-GitHub의 파일 보기 화면에서는 HTML이 실행되지 않습니다. 저장소를 Clone하거나 ZIP으로 내려받은 뒤 `index.html`을 여세요.
+Mentimeter는 시작 경험, GitHub 이해도, 자기 앱 아이디어의 3곳에 자리 표시가 있습니다. `session.html`에서 `MENTI-1`, `MENTI-2`, `MENTI-3` 주석을 찾아 해당 설문의 링크·참여 코드·QR 또는 공식 임베드를 넣으세요. 현재는 응답을 수집하지 않습니다.
+
+저장소를 Clone하거나 ZIP으로 내려받은 뒤 HTML을 브라우저에서 여세요. 빌드나 외부 라이브러리 설치가 필요 없습니다. GitHub의 파일 보기 화면은 HTML 실행 화면이 아닙니다.
