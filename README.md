@@ -53,3 +53,11 @@ exercises/
 Node.js 20 이상이 이미 있다면 루트에서 `npm test`로 지뢰찾기 스타터의 기본 검사를 실행할 수 있습니다. 게임 실행에는 Node.js가 필요 없습니다. 과제 검사는 실습 폴더의 안내를 참고하세요.
 
 MIT License.
+
+## HTML 교안과 Mentimeter
+
+루트 `index.html`을 브라우저에서 열면 슬라이드 36개 내용을 주제별로 읽을 수 있습니다. 각 교안의 **강사용 진행 노트**를 누르면 발표자 메모가 펼쳐집니다.
+
+Mentimeter 자리 표시는 시작 경험, GitHub 이해도, 자기 앱 아이디어의 세 곳에 있습니다. `index.html`에서 `menti-1`, `menti-2`, `menti-3`을 찾아 각 `menti-insertion-point`에 공유 링크 또는 공식 임베드 코드를 넣고 QR·참여 코드를 추가하세요. 현재는 실제 설문 연결이나 응답 수집이 없습니다.
+
+GitHub의 파일 보기 화면에서는 HTML이 실행되지 않습니다. 저장소를 Clone하거나 ZIP으로 내려받은 뒤 `index.html`을 여세요.
