@@ -1,70 +1,93 @@
 # 바이브 코딩 101
 
-**코딩 경험이 없는 연구자를 위한 바이브 코딩과 GitHub 수업 자료입니다.**
+여러분의 아이디어를 작동하는 도구로 만드는 2시간 워크숍입니다. 코딩 경험이 없어도 참여할 수 있습니다.
 
-AI에게 원하는 동작을 설명하고, 결과를 직접 검증하며, 변경 이력을 남기는 방법을 배웁니다. 첫 시간에는 개념 설명과 함께 실습하고, 다음 시간에는 같은 과정을 자신의 아이디어에 적용합니다.
+## 온라인으로 열기
 
-## 수업 자료
+- [수업 안내](https://arnoldchung.github.io/VibeCoding101/)
+- [세션 슬라이드](https://arnoldchung.github.io/VibeCoding101/session.html)
+- [시작 설문](https://www.menti.com/alt4urxjua9d)
 
-| 주제 | 배울 내용 | 자료 |
-| --- | --- | --- |
-| 바이브 코딩 | 문제 정의, 요청문 작성, 실행, 테스트, 개선 | [바이브 코딩 기초](docs/VIBE-CODING.md) |
-| GitHub와 버전 관리 | 계정 준비, Fork·Clone, Diff·커밋, Push·Pull, 복구 | [GitHub 시작하기](docs/GITHUB.md) |
-| 수업 진행 | 첫 60분 함께 배우기, 다음 60분 내 아이디어 만들기 | [2시간 수업 안내](docs/SESSION.md) |
+세션 슬라이드는 38장입니다. **이전·다음 버튼, 방향키, Space, 목차**로 이동하고 **F**로 전체 화면을 켜거나 끕니다.
 
-브라우저에서 수업 자료를 보려면 저장소를 내려받고 루트의 `index.html`을 엽니다. 별도 설치나 빌드는 필요 없습니다.
+## 오늘 배울 네 가지
+
+1. **바이브 코딩 이해:** AI가 할 일과 내가 결정할 일
+2. **프롬프트 작성:** 목적·맥락·요구사항·제약·성공 조건 전달
+3. **Skills 활용:** 필요한 Skill 찾기, 지침 읽기, 적용 결과 확인
+4. **나만의 Skill 제작:** `SKILL.md` 작성·사용·수정·재검사
+
+Plan·Edit·Auto의 차이, Skills 마켓, Superpowers와 수업 관련 인기 Skills도 살펴봅니다. 모드의 이름과 권한은 도구마다 다릅니다.
+
+## 수업 구성
+
+| 시간 | 활동 |
+| --- | --- |
+| 첫 0–10분 | 바이브 코딩과 작업 모드 이해 |
+| 10–22분 | 프롬프트 작성과 다듬기 |
+| 22–32분 | Skills 탐색과 활용 |
+| 32–45분 | 나만의 `SKILL.md` 제작 실습 |
+| 45–60분 | GitHub와 지뢰찾기로 요청·구현·검증·기록 연습 |
+| 다음 60분 | 내 Skill로 앱 기획·구현·테스트·개선·시연 |
+
+GitHub와 지뢰찾기는 배운 내용을 적용하는 마무리 실습입니다. 계정 로그인과 Fork·Clone은 수업 전에 준비합니다. 자세한 진행은 [2시간 수업 안내](docs/SESSION.md)를 참고하세요.
 
 ## 시작하기
 
-1. [이 저장소를 Fork](https://github.com/arnoldchung/VibeCoding101/fork)하고 Owner를 **본인 계정**으로 선택합니다.
-2. GitHub Desktop으로 **본인 Fork**를 Clone합니다.
-3. 루트의 `index.html`에서 수업 개요와 자료를 읽습니다.
-4. 수업 안내에 따라 아래 실습을 진행합니다. 변경한 내용은 확인한 뒤 커밋하고 본인 Fork로 Push합니다.
+1. 사용할 AI 코딩 도구와 GitHub에 로그인합니다.
+2. [강사 저장소를 Fork](https://github.com/arnoldchung/VibeCoding101/fork)하고 **본인 계정**을 선택합니다.
+3. GitHub Desktop으로 **본인 Fork**를 Clone합니다.
+4. 온라인 세션 슬라이드 또는 내려받은 `session.html`을 엽니다.
+5. 변경한 내용은 테스트와 Diff 확인 후 커밋하고 본인 Fork로 Push합니다.
 
-Fork는 GitHub의 내 복사본, Clone은 내 컴퓨터의 작업 폴더입니다. Fork만으로 웹사이트가 자동 실행되거나 배포되지는 않습니다.
+Fork는 GitHub의 내 복사본, Clone은 내 컴퓨터의 작업 폴더입니다. Fork만으로 내 사이트가 자동 배포되지는 않습니다. [GitHub 설정과 버전 관리](docs/GITHUB.md)에서 자세히 확인할 수 있습니다.
 
-## 수업 실습
+## 시작 설문과 QR 코드
 
-**지뢰찾기**는 배운 과정을 연습하는 예제입니다. 게임 코드는 수업 자료와 분리해 [`exercises/minesweeper/`](exercises/minesweeper/)에 두었습니다.
+[시작 설문 슬라이드](https://arnoldchung.github.io/VibeCoding101/session.html#slide-2)에는 QR 코드, 참여 버튼, Mentimeter 프레젠테이션을 넣었습니다.
 
-- [실습 시작 안내](exercises/minesweeper/README.md)
-- 실행 파일: `exercises/minesweeper/index.html`
-- [참가자 미션과 요청문](exercises/minesweeper/docs/PARTICIPANT.md)
-- [실습 기록지](exercises/minesweeper/docs/WORKSHEET.md)
+1. 오늘 바이브코딩 세미나에 나오시게 된 이유?
+2. 저의 바이브코딩 경험 수준은?
 
-화면·입력·재시작은 제공하고, 지뢰 배치·주변 숫자·빈 영역·승리 판정은 참가자가 AI와 구현합니다. 시작 상태는 의도적으로 미완성입니다.
+[<img src="assets/mentimeter_qr_code.png" width="180" alt="Mentimeter 시작 설문 참여 QR 코드">](https://www.menti.com/alt4urxjua9d)
 
-## 저장소 구조
+휴대폰으로 QR 코드를 스캔하거나 [참여 링크](https://www.menti.com/alt4urxjua9d)를 여세요. 질문 전환은 Mentimeter 프레젠테이션에서 진행합니다.
 
-```text
-README.md                 수업 소개와 자료 안내
-index.html                수업 첫 화면
-styles.css                수업 화면 스타일
-docs/
-  VIBE-CODING.md           바이브 코딩 기초
-  GITHUB.md                GitHub 설정과 버전 관리
-  SESSION.md               2시간 수업 진행
-exercises/
-  minesweeper/             지뢰찾기 실습 코드·테스트·기록지
-```
+Skills 이해도와 내 앱 아이디어 설문은 아직 자리 표시입니다. `session.html`의 `MENTI-2`, `MENTI-3` 주석 위치에 설문 링크·QR·공식 임베드를 추가할 수 있습니다. 시작 설문은 `MENTI-1`, QR 이미지 파일은 `assets/mentimeter_qr_code.png`입니다.
 
-## 검증
+## 실습 자료
 
-Node.js 20 이상이 이미 있다면 루트에서 `npm test`로 지뢰찾기 스타터의 기본 검사를 실행할 수 있습니다. 게임 실행에는 Node.js가 필요 없습니다. 과제 검사는 실습 폴더의 안내를 참고하세요.
+### 나만의 Skill 만들기
+
+[실습 안내·기록지](exercises/skills/README.md)와 [idea-to-spec 예제](exercises/skills/idea-to-spec/SKILL.md)를 사용합니다. 직접 작성한 지침을 서로 다른 요청 두 개로 테스트하고, 한 줄을 수정해 다시 확인합니다.
+
+예제는 자동 설치되지 않습니다. 선택한 도구의 프로젝트 경로로 복사하세요.
+
+- Codex: `.agents/skills/idea-to-spec/SKILL.md` → `$idea-to-spec`
+- Claude Code: `.claude/skills/idea-to-spec/SKILL.md` → `/idea-to-spec`
+
+### 지뢰찾기
+
+[시작 안내](exercises/minesweeper/README.md) · [참가자 미션](exercises/minesweeper/docs/PARTICIPANT.md) · [기록지](exercises/minesweeper/docs/WORKSHEET.md)
+
+실행 파일은 `exercises/minesweeper/index.html`입니다. 화면·입력·재시작은 제공되며, 게임 규칙은 참가자가 AI와 구현합니다. 첫 시간에는 지뢰 배치 한 미션에 집중합니다. 스타터는 의도적으로 미완성입니다.
+
+## 파일 안내와 로컬 실행
+
+| 경로 | 내용 |
+| --- | --- |
+| `index.html`, `styles.css` | 간결한 수업 안내 페이지 |
+| `session.html`, `session.css`, `session.js` | 화면 공유용 슬라이드 |
+| `assets/mentimeter_qr_code.png` | 시작 설문 QR 원본 |
+| `docs/` | 바이브 코딩·GitHub·수업 진행 안내 |
+| `exercises/skills/` | Skill 제작 예제와 기록지 |
+| `exercises/minesweeper/` | 지뢰찾기 스타터와 테스트 |
+| `.nojekyll` | GitHub Pages에서 원본 정적 파일 제공 |
+
+Clone 또는 ZIP 다운로드 후 `index.html`이나 `session.html`을 브라우저에서 여세요. 빌드나 외부 라이브러리 설치는 필요 없습니다. GitHub의 파일 보기 화면에서는 HTML이 실행되지 않습니다. Mentimeter 임베드와 외부 링크에는 인터넷 연결이 필요합니다.
+
+이미 Node.js 20 이상이 설치되어 있다면 루트에서 `npm test`로 지뢰찾기 스타터의 기본 검사를 실행할 수 있습니다. 게임 실행에는 Node.js가 필요하지 않습니다. 미완성 미션의 검사는 실습 안내를 따르세요.
+
+GitHub Pages는 `main` 브랜치의 루트에서 배포됩니다. Push 후 온라인 반영까지는 시간이 걸릴 수 있습니다.
 
 MIT License.
-
-## 두 가지 HTML
-
-- `index.html`: 수업 구성·준비·자료 링크를 담은 간결한 저장소 안내
-- `session.html`: 화면 공유용 38장 슬라이드. 다음·이전 버튼, 방향키, Space, 목차로 이동합니다. F는 전체 화면입니다.
-
-강사용 진행 노트는 포함하지 않습니다. 바이브 코딩 이해 → 프롬프트 작성 → Skills 활용 → 나만의 Skill 제작 순서로 진행합니다. Plan·Edit·Auto, Skills 마켓과 추천도 포함합니다. GitHub·지뢰찾기는 마지막 적용 실습입니다. 도구별 모드 명칭과 권한은 다르며 출처 링크와 확인 날짜를 슬라이드에 표시했습니다.
-
-시작 설문에는 참여 동기·경험 수준의 두 질문을 담은 Mentimeter 프레젠테이션을 연결했습니다. 참여 링크는 https://www.menti.com/alt4urxjua9d 입니다. Skills 이해도와 자기 앱 아이디어 설문은 자리 표시로 남겨 두었습니다. `session.html`에서 `MENTI-1`, `MENTI-2`, `MENTI-3` 주석을 찾아 해당 설문의 링크·참여 코드·QR 또는 공식 임베드를 넣으세요. 현재는 응답을 수집하지 않습니다.
-
-저장소를 Clone하거나 ZIP으로 내려받은 뒤 HTML을 브라우저에서 여세요. 빌드나 외부 라이브러리 설치가 필요 없습니다. GitHub의 파일 보기 화면은 HTML 실행 화면이 아닙니다.
-
-## 나만의 Skill 제작
-
-[실습 안내·기록지](exercises/skills/README.md)와 [idea-to-spec 예제](exercises/skills/idea-to-spec/SKILL.md)를 사용합니다. 직접 작성한 지침을 두 입력으로 시험하고, 한 줄을 수정해 재검사합니다. [수업 시간표](docs/SESSION.md)에 진행 순서가 있습니다.
