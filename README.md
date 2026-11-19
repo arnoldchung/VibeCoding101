@@ -59,8 +59,12 @@ MIT License.
 - `index.html`: 수업 구성·준비·자료 링크를 담은 간결한 저장소 안내
 - `session.html`: 화면 공유용 38장 슬라이드. 다음·이전 버튼, 방향키, Space, 목차로 이동합니다. F는 전체 화면입니다.
 
-강사용 진행 노트는 포함하지 않습니다. Plan·Edit·Auto의 차이, Skills와 마켓, Superpowers 및 수업 관련 인기 Skills를 다룹니다. 도구별 모드 명칭과 권한은 다르며 출처 링크와 확인 날짜를 슬라이드에 표시했습니다.
+강사용 진행 노트는 포함하지 않습니다. 바이브 코딩 이해 → 프롬프트 작성 → Skills 활용 → 나만의 Skill 제작 순서로 진행합니다. Plan·Edit·Auto, Skills 마켓과 추천도 포함합니다. GitHub·지뢰찾기는 마지막 적용 실습입니다. 도구별 모드 명칭과 권한은 다르며 출처 링크와 확인 날짜를 슬라이드에 표시했습니다.
 
-Mentimeter는 시작 경험, GitHub 이해도, 자기 앱 아이디어의 3곳에 자리 표시가 있습니다. `session.html`에서 `MENTI-1`, `MENTI-2`, `MENTI-3` 주석을 찾아 해당 설문의 링크·참여 코드·QR 또는 공식 임베드를 넣으세요. 현재는 응답을 수집하지 않습니다.
+Mentimeter는 시작 경험, Skills 이해도, 자기 앱 아이디어의 3곳에 자리 표시가 있습니다. `session.html`에서 `MENTI-1`, `MENTI-2`, `MENTI-3` 주석을 찾아 해당 설문의 링크·참여 코드·QR 또는 공식 임베드를 넣으세요. 현재는 응답을 수집하지 않습니다.
 
 저장소를 Clone하거나 ZIP으로 내려받은 뒤 HTML을 브라우저에서 여세요. 빌드나 외부 라이브러리 설치가 필요 없습니다. GitHub의 파일 보기 화면은 HTML 실행 화면이 아닙니다.
+
+## 나만의 Skill 제작
+
+[실습 안내·기록지](exercises/skills/README.md)와 [idea-to-spec 예제](exercises/skills/idea-to-spec/SKILL.md)를 사용합니다. 직접 작성한 지침을 두 입력으로 시험하고, 한 줄을 수정해 재검사합니다. [수업 시간표](docs/SESSION.md)에 진행 순서가 있습니다.
