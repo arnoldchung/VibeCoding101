@@ -179,3 +179,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Browser workshop starter
+.DS_Store
+Thumbs.db
+node_modules/
+coverage/
+.env.*
+.vscode/

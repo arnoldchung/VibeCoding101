@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>실습 시작 가이드 · 지뢰찾기 실험실</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .guide{max-width:800px;margin:auto;padding:32px 24px 64px}.guide h1{font-size:36px;margin-top:32px}.guide h2{font-size:22px;margin:32px 0 16px}.guide p,.guide li{font-size:16px;line-height:1.9}.guide li{margin:10px 0}.guide pre{padding:20px;white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid var(--line);border-radius:12px;background:white;line-height:1.9;font-size:15px}.guide code{font-size:14px}.guide nav{display:flex;gap:24px;font-size:14px}.guide .note{background:#e6f2ed;padding:16px 20px;border-radius:12px}.guide .detail{font-size:14px;color:var(--muted)}
+  </style>
+</head>
+<body><main class="guide">
+  <nav><a href="../index.html">게임으로 돌아가기</a><a href="https://github.com/arnoldchung/VibeCoding101">GitHub 저장소</a></nav>
+  <p class="eyebrow" style="margin-top:36px">참가자 빠른 시작</p><h1>한 함수씩, 나의 게임으로</h1>
+  <p>지뢰찾기 화면은 준비되어 있습니다. 네 가지 게임 규칙을 AI와 구현하고, 직접 확인한 결과를 커밋으로 남겨 보세요.</p>
+  <p class="note"><strong>현재는 미완성 스타터입니다.</strong> 지뢰가 없고 클릭한 한 칸만 열립니다. 과제 구현 전의 예상 동작입니다.</p>
+  <h2>먼저 나의 복사본 만들기</h2>
+  <ol><li>강사 GitHub에서 Fork를 누르고 본인을 Owner로 선택합니다.</li><li>본인 Fork를 GitHub Desktop으로 Clone합니다.</li><li>Clone한 폴더의 <code>index.html</code>을 브라우저로 엽니다.</li><li>같은 폴더를 AI 코딩 도구로 열고 새 브랜치 <code>feature/minesweeper</code>를 만듭니다.</li></ol>
+  <h2>첫 요청문</h2>
+  <pre>AGENTS.md와 src/engine.js를 먼저 읽어 주세요.
+미션 1의 placeMines만 구현해 주세요.
+서로 다른 칸에 정확히 mineCount개의 지뢰를 놓고 첫 클릭은 보호해 주세요.
+rng를 사용해 유한한 반복으로 끝나도록 해 주세요.
+다른 미션은 미리 구현하지 말고, 변경 이유와 확인할 검사를 설명해 주세요.</pre>
+  <h2>네 가지 미션</h2>
+  <ol><li><strong>지뢰 배치:</strong> 정확히 10개, 중복 금지, 첫 클릭 보호.</li><li><strong>숫자 계산:</strong> 자기 자신을 제외한 주변 8방향. 모서리와 행 경계 확인.</li><li><strong>빈 영역:</strong> 연결된 0과 경계 숫자 열기. 지뢰·깃발은 열지 않기.</li><li><strong>승리 판정:</strong> 모든 안전한 칸이 열려야 성공. 깃발 개수와 구별.</li></ol>
+  <h2>매번 이 순서로</h2>
+  <p>성공 조건 작성 → 한 가지 구현 → 예상값과 실제 결과 비교 → Diff 확인 → 커밋 → 본인 Fork로 Push.</p>
+  <p>Node.js가 이미 있다면 <code>npm test</code>로 기본 검사를 실행합니다. <code>npm run test:missions</code>는 처음에는 실패하는 과제 검사입니다. 설치 없이도 직접 플레이하며 수동 확인표를 사용할 수 있습니다.</p>
+  <h2>어디에서 자세히 읽나요?</h2>
+  <p>프로젝트의 <code>docs/PARTICIPANT.md</code>, <code>docs/VERSION-CONTROL.md</code>, <code>docs/WORKSHEET.md</code>를 AI 도구나 텍스트 편집기에서 여세요. GitHub에서도 같은 문서를 읽을 수 있습니다.</p>
+  <p class="detail">PR 연습은 본인 Fork의 main으로 보냅니다. 강사 원본으로 제출하는 PR은 별도로 요청받았을 때만 만듭니다.</p>
+</main></body></html>
