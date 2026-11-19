@@ -1,0 +1,12 @@
+{
+  "name": "vibe-coding-minesweeper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "한국어 바이브 코딩 워크숍용 지뢰찾기 스타터. 브라우저 실행에는 설치가 필요 없습니다.",
+  "scripts": {
+    "test": "node --test tests/starter.test.cjs",
+    "test:missions": "node --test tests/missions.test.cjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}

@@ -2,7 +2,7 @@
 
 ## 시작 전
 
-Fork → **본인 Fork**를 Clone → `index.html` 열기 → 클릭·깃발·리셋 확인. 보드에 지뢰가 없는 현재 상태를 먼저 관찰하세요. GitHub의 코드 화면은 게임 실행 화면이 아닙니다.
+Fork → **본인 Fork**를 Clone → `exercises/minesweeper/index.html` 열기 → 클릭·깃발·리셋 확인. 보드에 지뢰가 없는 현재 상태를 먼저 관찰하세요. GitHub의 코드 화면은 게임 실행 화면이 아닙니다.
 
 새 기능마다 브랜치를 만들 수 있지만, 처음에는 `feature/minesweeper` 하나에서 작은 커밋을 차례로 쌓아도 됩니다. 커밋하지 않은 변경을 두고 브랜치를 전환하지 마세요.
 
