@@ -31,11 +31,12 @@
 
 마켓에 없는 경우를 대비해, 공식 문서가 지원하는 프로젝트 플러그인 폴더로 수동 설치할 수 있습니다. 원저자 README는 Antigravity CLI의 GitHub 설치 명령을 제시하지만, 이번 앱 중심 수업에서는 참가자가 터미널에 입력하는 방식을 필수로 두지 않습니다.
 
-### 파일 탐색기로 설치하는 대안
+### 강사와 함께 확인할 수동 설치 대안
 
 1. [원저자 저장소](https://github.com/obra/superpowers)에서 **Code → Download ZIP**을 선택하고 압축을 풉니다.
-2. 실습 프로젝트의 **minesweeper** 폴더 안에 `.agents`, 그 안에 `plugins`, 그 안에 `superpowers` 폴더를 만듭니다. 익숙하지 않으면 앱에 폴더만 생성하도록 요청해도 됩니다.
-3. 압축을 푼 **저장소 내용 전체**를 superpowers 폴더로 복사합니다. 최종 구조는 아래와 같아야 하며, ZIP 폴더가 한 겹 더 들어가지 않게 합니다.
+2. **복사하기 전에 숨김 항목을 표시합니다.** Mac Finder: **Command + Shift + .** / Windows 탐색기: **보기 → 표시 → 숨긴 항목**. `.antigravity-plugin`이 보이는지 확인합니다.
+3. 실습 프로젝트의 **minesweeper** 폴더 안에 `.agents`, 그 안에 `plugins`, 그 안에 `superpowers` 폴더를 만듭니다. 익숙하지 않으면 앱에 폴더만 생성하도록 요청해도 됩니다.
+4. 압축을 푼 **저장소 내용 전체**를 superpowers 폴더로 복사합니다. 최종 구조는 아래와 같아야 하며, ZIP 폴더가 한 겹 더 들어가지 않게 합니다.
 
 ```text
 minesweeper/
@@ -48,9 +49,9 @@ minesweeper/
         ...
 ```
 
-숨김 폴더가 보이지 않으면 Mac Finder에서 **Command + Shift + .**, Windows 탐색기에서 **보기 → 표시 → 숨긴 항목**을 확인합니다.
+숨김 항목인 `.antigravity-plugin`도 반드시 함께 복사합니다. 폴더 안의 파일 이름과 내용을 원본과 비교합니다.
 
-4. 프로젝트를 다시 열고 새 대화에서 플러그인의 설치·활성화 상태를 확인합니다. 실패하면 경로·메타데이터·지원 버전을 강사와 확인합니다. 파일을 복사한 것만으로 정상 로드됐다고 기록하지 않습니다.
+5. 프로젝트를 다시 열고 새 대화에서 플러그인의 설치·활성화 상태를 확인합니다. 실패하면 경로·메타데이터·지원 버전을 강사와 확인합니다. 파일을 복사한 것만으로 정상 로드됐다고 기록하지 않습니다.
 
 [Antigravity 공식 플러그인 안내](https://antigravity.google/docs/plugins) · [원저자 Antigravity 안내](https://github.com/obra/superpowers#antigravity)
 

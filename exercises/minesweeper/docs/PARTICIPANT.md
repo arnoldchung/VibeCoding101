@@ -2,9 +2,9 @@
 
 ## 시작 전
 
-Fork → **본인 Fork**를 Clone → `exercises/minesweeper/index.html` 열기 → 클릭·깃발·리셋 확인. 보드에 지뢰가 없는 현재 상태를 먼저 관찰하세요. GitHub의 코드 화면은 게임 실행 화면이 아닙니다.
+수업 저장소에서 **Code → Download ZIP**을 눌러 내려받고 압축을 풉니다. 앱에서 `exercises/minesweeper`를 로컬 프로젝트로 연 뒤, 같은 위치의 `index.html`을 브라우저로 엽니다. 클릭·깃발·다시 시작을 확인하고, 지뢰가 없는 미완성 상태를 먼저 관찰하세요. GitHub의 코드 화면은 게임 실행 화면이 아닙니다.
 
-새 기능마다 브랜치를 만들 수 있지만, 처음에는 `feature/minesweeper` 하나에서 작은 커밋을 차례로 쌓아도 됩니다. 커밋하지 않은 변경을 두고 브랜치를 전환하지 마세요.
+앱에 현재 작업 경로를 확인하면 ZIP·복사본·Git Clone 폴더를 혼동하지 않을 수 있습니다. GitHub 계정·Git 설치는 시작 단계에 필요하지 않습니다. Fork·Clone·Commit은 마지막 선택 실습에서 진행합니다.
 
 ## 미션 1 지뢰 배치
 
@@ -92,14 +92,15 @@ Fork → **본인 Fork**를 Clone → `exercises/minesweeper/index.html` 열기 
 
 ## Skills 사용
 
-이 저장소에는 내용이 같은 프로젝트 Skill이 두 경로에 들어 있습니다.
+이 실습 폴더에는 내용이 같은 `minesweeper-workshop` Skill이 두 경로에 준비돼 있습니다.
 
-- Codex CLI/IDE: `$minesweeper-workshop 미션 1만 구현해 주세요.`
-- Claude Code: `/minesweeper-workshop 미션 1만 구현해 주세요.`
+- ChatGPT · Codex 앱: `.agents/skills/minesweeper-workshop/SKILL.md` — “minesweeper-workshop Skill을 사용해 미션 1만 구현해 주세요.”
+- Claude · Code 앱: `.claude/skills/minesweeper-workshop/SKILL.md` — `/minesweeper-workshop 미션 1만 구현해 주세요.`
+- Antigravity 앱: `.agents/skills/minesweeper-workshop/SKILL.md` — `/minesweeper-workshop 미션 1만 구현해 주세요.`
 
-도구·버전에 따라 목록과 호출 방식은 다를 수 있습니다. 사용할 수 없으면 해당 `SKILL.md`의 본문을 프롬프트에 붙여 넣으세요. 이는 일반 프롬프트 사용이며 설치·호출했다고 기록하지 않습니다.
+경로는 앱에서 연 `minesweeper` 폴더 기준입니다. 도구·버전에 따라 목록과 호출 방식은 다를 수 있습니다. 사용할 수 없으면 해당 `SKILL.md`의 본문을 프롬프트에 붙여 넣을 수 있습니다. 이는 일반 프롬프트 사용이며 Skill로 불러왔다고 기록하지 않습니다. 나만의 `game-check` 작성은 [15분 실습 안내](../../skills/README.md)를 참고합니다.
 
-## 설치가 어려운 경우
+## 로컬 작업이 어려운 경우 · 선택 대안
 
 1. GitHub 웹에서 본인 Fork를 만듭니다.
 2. `src/engine.js`를 AI 채팅에 제공하고 한 미션의 수정만 요청합니다.

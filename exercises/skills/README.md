@@ -5,11 +5,11 @@
 ## 따라 하기 (15분)
 
 1. **0–3분:** [game-check 예제](game-check/SKILL.md)의 이름·description·절차를 읽고 직접 작성합니다.
-2. **3–6분:** 앱에서 열어 둔 실제 minesweeper 작업 폴더 안의 경로로 저장합니다.
+2. **3–6분:** 앱에서 열어 둔 실제 **exercises/minesweeper** 폴더를 기준으로 아래 경로에 저장합니다. 저장소의 맨 위 폴더가 아닙니다. 숨김 폴더 만들기가 어려우면 앱에 해당 경로와 예제 파일의 전체 내용을 함께 전달해 파일 생성을 요청합니다. “슬라이드 내용”이라고만 전달하지 않습니다. 파일을 확인한 뒤 같은 프로젝트에서 새 대화를 엽니다.
    - ChatGPT · Codex 앱: `.agents/skills/game-check/SKILL.md` → 앱의 Skill 선택 또는 이름을 지정한 요청
    - Claude Code 앱: `.claude/skills/game-check/SKILL.md` → `/game-check`
    - Antigravity 앱: `.agents/skills/game-check/SKILL.md` → `/game-check` 또는 이름을 지정한 요청. [공식 Skills 안내](https://antigravity.google/docs/skills)를 참고합니다.
-3. **6–10분:** 두 요청으로 사용합니다. A: “미션 1을 점검하고 예상값·실제값·미실행 검사를 구분해 주세요.” B: “게임 검사해 줘.” B에서는 범위를 먼저 확인하는지 봅니다.
+3. **6–10분:** 두 요청으로 사용합니다. A: “game-check Skill을 사용해 미션 1을 점검하고 예상값·실제값·미실행 검사를 구분해 주세요.” B: “game-check Skill을 사용해 게임을 검사해 주세요.” Claude·Antigravity에서는 문장 앞의 이름 지정 대신 `/game-check`를 사용해도 됩니다. B에서는 검사할 미션을 먼저 묻는지 봅니다.
 4. **10–15분:** “첫 클릭을 모서리·중앙으로 바꾸는 수동 검사 절차도 제시한다.”를 추가하고 같은 요청으로 재검사합니다.
 
 Skill은 코드를 임의로 수정하지 않고 검사·보고합니다. 브라우저 검사 도구가 없으면 참가자가 수동으로 확인합니다. 미구현 미션의 실패와 실제 오류를 구분합니다.

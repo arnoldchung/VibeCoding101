@@ -12,3 +12,12 @@
 .install-steps{font-size:.9rem;line-height:1.65}.install-steps li+li{margin-top:10px}
 
 .slide[data-install] .slide-inner{padding-top:24px;padding-bottom:24px}.slide[data-install] h1{margin-bottom:20px}.slide[data-install] pre{padding:16px}.slide[data-install] .callout{margin-top:18px}.slide[data-install] .sources{margin-top:16px}
+
+/* Keep the longer workshop instructions readable at 1280 × 720. */
+.slide:is(#slide-35,#slide-38,#slide-40,#slide-43,#slide-44) .slide-inner{padding-top:20px;padding-bottom:20px}
+.slide:is(#slide-35,#slide-38,#slide-40,#slide-43,#slide-44) h1{margin-bottom:24px}
+.slide:is(#slide-35,#slide-38,#slide-40,#slide-43,#slide-44) .callout{margin-top:20px}
+.slide[data-install] .slide-inner{padding-top:22px;padding-bottom:22px}
+
+.slide:is(#slide-35,#slide-38,#slide-40,#slide-43,#slide-44) .sources{margin-top:16px}
+.slide[data-install] .slide-body{font-size:.9rem}

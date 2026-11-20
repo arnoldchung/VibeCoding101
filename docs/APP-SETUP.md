@@ -4,10 +4,10 @@
 
 ## 공통 순서
 
-1. 개인 노트북에 앱 설치·로그인. 코딩 작업 기능을 사용할 수 있는 계정인지 확인합니다.
+1. 개인 노트북에 앱 사전 설치·로그인. 계정에서 로컬 프로젝트의 파일을 읽고 수정할 수 있는지 확인합니다. 설치·로그인이 어려우면 수업 시작 때 강사와 함께 확인합니다.
 2. 강사 저장소에서 Code → Download ZIP → 압축 풀기.
 3. **exercises/minesweeper**를 앱의 로컬 프로젝트로 열기.
-4. “AGENTS.md를 읽고 현재 작업 경로와 네 TODO 함수를 설명해 주세요. 아직 수정하지 마세요.” 요청.
+4. “AGENTS.md와 docs/PARTICIPANT.md를 읽고 현재 작업 경로, 네 TODO 함수, 제가 열 index.html의 실제 위치를 알려 주세요. 아직 수정하지 마세요.” 요청.
 5. 실제 작업 폴더의 index.html을 브라우저로 열어 클릭·깃발·리셋 확인.
 6. 한 규칙씩 계획→구현→변경 확인→브라우저 새로고침·새 게임.
 7. 기존 Skill과 직접 작성한 game-check 적용. 실행 검사와 미실행 항목 구분.
@@ -27,7 +27,7 @@ Skill은 실습 폴더 기준 `.agents/skills/game-check/SKILL.md`에 저장합�
 
 [다운로드](https://claude.com/download) · [세션](https://arnoldchung.github.io/VibeCoding101/session-claude.html)
 
-Claude 앱에서 Code 탭을 선택합니다. 환경에서 내 컴퓨터(Local), 프로젝트 폴더에서 실습 폴더를 선택합니다. 일반 Chat·Cowork 화면과 구분합니다. 별도 worktree를 사용한다면 실제 수정 경로를 확인하고 그 위치의 index.html을 엽니다.
+Claude 앱에서 Code 탭을 선택합니다. 환경에서 내 컴퓨터(Local), 프로젝트 폴더에서 실습 폴더를 선택합니다. 일반 Chat·Cowork 화면과 구분합니다. 수업에서는 별도 복사본(Worktree) 옵션을 켜지 않고 시작합니다. 이미 켰다면 실제 수정 경로를 확인하고 그 위치의 index.html을 엽니다.
 
 Skill은 `.claude/skills/game-check/SKILL.md`에 저장합니다. 입력창의 `/` 또는 +의 명령 선택에서 Skill을 찾고 `/game-check`로 사용합니다. 데스크톱 Code에는 자체 실행 구성요소가 있으므로 CLI를 별도로 설치하는 과정은 필수에 넣지 않습니다.
 
@@ -43,15 +43,32 @@ Skill은 `.agents/skills/game-check/SKILL.md`에 저장하고 `/game-check` 또�
 
 [시작하기](https://antigravity.google/docs/getting-started) · [앱 Skills](https://antigravity.google/docs/skills)
 
-## Skill 파일은 앱에게 만들도록 요청해도 됩니다
+## 나만의 Skill 파일 위치 · 슬라이드 40–44
 
-> [선택한 앱의 Skill 경로]에 SKILL.md를 만들고 아래 지침을 저장해 주세요. 게임 코드나 기존 테스트는 수정하지 마세요.
+**기준 폴더는 저장소 맨 위가 아니라 앱에서 연 `exercises/minesweeper`입니다.** 아래 폴더 하나를 선택한 앱에 맞춰 만들고 그 안에 파일을 저장합니다.
 
-저장 후 앱의 파일 보기 또는 Finder/탐색기로 파일을 확인합니다. SKILL.md.txt가 되지 않도록 합니다. 보이지 않으면 폴더·계정 지원·앱 버전을 확인하고 새 대화를 시작합니다. 본문을 일반 요청에 붙여 사용했다면 실제 Skill 호출 성공과 구분합니다.
+```text
+minesweeper/
+  .agents/skills/game-check/SKILL.md   ← ChatGPT · Codex / Antigravity
+  .claude/skills/game-check/SKILL.md   ← Claude · Code
+```
+
+경로의 `/`는 폴더 안으로 들어간다는 뜻입니다. `game-check`는 Skill 하나의 폴더이며, `SKILL.md`에 이름·용도·작업 절차를 적습니다. 두 경로를 모두 만들 필요는 없습니다. 예제인 `exercises/skills/game-check/SKILL.md`는 참고 자료이며 자동으로 설치되지 않습니다.
+
+숨김 폴더를 직접 만들기 어려우면 앱에 요청합니다. [전체 예제](../exercises/skills/game-check/SKILL.md)를 열어 전체 내용을 복사합니다. 아래 `[경로]`를 선택한 앱의 경로로 바꾸고 요청 끝에 예제 내용을 붙여 넣습니다. “앞 슬라이드의 내용”이라고만 쓰면 앱은 내용을 알 수 없습니다.
+
+> 현재 작업 중인 minesweeper 폴더 기준으로 [경로] 파일을 만들고 제가 전달한 이름·설명·검사 절차를 함께 저장해 주세요. 게임 코드와 기존 테스트는 수정하지 마세요.
+
+1. 앱의 파일 보기에서 내용과 실제 위치를 확인합니다. 파일 이름은 `SKILL.md`이며 `SKILL.md.txt`가 아닙니다.
+2. 같은 프로젝트에서 새 대화를 열고 Skill 선택 기능에서 `game-check`를 확인합니다.
+3. Codex는 “game-check Skill을 사용해 미션 1을 점검해 주세요”, Claude·Antigravity는 `/game-check 미션 1을 점검해 주세요`로 사용합니다.
+4. 보이지 않으면 실제 프로젝트 경로·이름·앱 버전을 확인합니다. 이름이 같은 다른 Skill이 있다면 읽은 파일 경로도 확인합니다.
+
+파일 첨부나 일반 채팅 업로드만으로 로컬 프로젝트 Skill이 등록되지는 않습니다. 본문을 일반 요청에 붙여 사용했다면 Skill로 불러온 결과와 구분해 기록합니다.
 
 ## 자동 테스트는 선택
 
-게임은 index.html을 브라우저로 열면 실행됩니다. Node.js가 있으면 AI에게 기본·해당 미션 검사를 실행하도록 요청합니다. 없으면 설치하지 말고 미실행으로 보고하고 수동 절차를 제공합니다. [CLI·Node.js 설치 참고](SETUP.md)는 자동 검사를 더 해 보고 싶을 때 사용합니다.
+게임은 index.html을 브라우저로 열면 실행됩니다. Node.js가 있으면 AI에게 기본·해당 미션 검사를 실행하도록 요청합니다. 없으면 수업 중 설치를 진행하지 않고 미실행으로 보고한 뒤 수동 절차를 제공합니다. 첫 클릭이 안전하다는 관찰만으로 지뢰가 정확히 10개라고 판단하지 않습니다. [CLI·Node.js 설치 참고](SETUP.md)는 자동 검사를 더 해 보고 싶을 때 사용합니다.
 
 공식 문서 확인: 2026-11-19. 메뉴 위치·이름은 앱 버전·계정에 따라 달라질 수 있습니다. 강사는 실제 로컬 프로젝트 접근·수정·실행을 사전에 확인합니다. 앱을 열 수 있다는 것만으로 모든 기능을 사용할 수 있다고 가정하지 않습니다.
 
