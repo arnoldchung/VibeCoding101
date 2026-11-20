@@ -11,24 +11,24 @@
 - **GitHub 계정은 선택:** 마지막 저장·공유 실습에 사용할 수 있습니다.
 - **만들고 싶은 작은 앱 아이디어 하나**
 
-**AI 앱은 미리 설치하고, VS Code·Node.js·선택한 CLI의 설치와 실습 폴더 준비는 수업에서 함께 진행합니다.** 모두 설치하거나 구독할 필요는 없습니다.
+**앱 하나를 미리 설치·로그인하고, 실습 폴더 열기부터 수업에서 함께 진행합니다.** CLI·터미널·VS Code·Node.js는 필수 준비물이 아닙니다.
 
-현재 슬라이드는 CLI 실습 기준입니다. 데스크톱 앱 설치와 CLI 설치는 별개이며, Google Antigravity와 Gemini CLI도 서로 다른 도구입니다.
+[앱별 준비 안내](docs/APP-SETUP.md)에서 일반 채팅이 아닌 로컬 프로젝트 작업 화면을 확인해 주세요.
 
 ## 도구별 수업 슬라이드
 
 **사용할 도구 하나를 골라 해당 슬라이드를 열어 주세요.**
 
-- **[Codex 버전](https://arnoldchung.github.io/VibeCoding101/session.html)**
-- **[Claude Code 버전](https://arnoldchung.github.io/VibeCoding101/session-claude.html)**
-- **[Gemini CLI 버전](https://arnoldchung.github.io/VibeCoding101/session-gemini.html)**
+- **[ChatGPT · Codex 앱 버전](https://arnoldchung.github.io/VibeCoding101/session.html)**
+- **[Claude · Code 앱 버전](https://arnoldchung.github.io/VibeCoding101/session-claude.html)**
+- **[Google Antigravity 앱 버전](https://arnoldchung.github.io/VibeCoding101/session-antigravity.html)**
 
 ## 세미나 계획 · 총 150분
 
 | 시간 | 내용 |
 | --- | --- |
 | 0–10분 | 시작 설문·바이브 코딩 소개 |
-| 10–35분 | 도구 설치·로그인·작업 폴더 준비 |
+| 10–35분 | 앱 로그인·프로젝트 폴더 열기·첫 실행 |
 | 35–50분 | 프롬프트 작성·Plan/Edit/Auto 이해 |
 | 50–80분 | 지뢰찾기 함께 만들기·테스트 |
 | 80–95분 | Skills 이해와 활용 |

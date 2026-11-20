@@ -7,7 +7,7 @@
 | 시간 | 활동 | 완료 확인 |
 | --- | --- | --- |
 | 0–10분 | 시작 설문·바이브 코딩 소개 | AI와 사람의 역할 이해 |
-| 10–35분 | VS Code·Node.js·CLI 설치, 로그인·작업 폴더 | 첫 대화와 보드 실행 |
+| 10–35분 | 앱 로그인·프로젝트 폴더 열기·첫 실행 | 첫 대화와 보드 실행 |
 | 35–50분 | 지뢰찾기 요구사항·프롬프트·Plan/Edit/Auto | 구현 범위와 성공 조건 합의 |
 | 50–80분 | 지뢰찾기 네 규칙을 한 가지씩 구현·검사 | 작동한 미션과 테스트 결과 기록 |
 | 80–95분 | Skills·마켓 이해, 준비된 Skill 활용 | 지뢰찾기 검사 보고서 비교 |
@@ -19,9 +19,10 @@
 ## 준비와 진행 원칙
 
 - 노트북·충전기·인터넷·사용할 AI 계정을 준비합니다. 설치와 로그인은 수업에서 함께 합니다.
-- 기본 session.html은 Codex 버전입니다. [Claude Code 세션](https://arnoldchung.github.io/VibeCoding101/session-claude.html)과 [Gemini CLI 세션](https://arnoldchung.github.io/VibeCoding101/session-gemini.html)도 같은 150분 구성으로 제공합니다. 사용할 도구 하나와 이용 가능한 계정을 선택합니다. 세 도구를 모두 설치할 필요는 없습니다.
-- GitHub 계정·Desktop은 선택입니다. 처음에는 ZIP을 풀어 진행할 수 있습니다.
-- 선택한 도구의 설치 안내([Codex](SETUP.md), [Claude Code](SETUP-CLAUDE.md), [Gemini CLI](SETUP-GEMINI.md))를 순서대로 확인합니다. 설치가 5분 이상 막히면 짝 활동으로 합류합니다.
+- [ChatGPT · Codex](https://arnoldchung.github.io/VibeCoding101/session.html), [Claude · Code](https://arnoldchung.github.io/VibeCoding101/session-claude.html), [Google Antigravity](https://arnoldchung.github.io/VibeCoding101/session-antigravity.html) 앱 버전 중 하나를 선택합니다.
+- [앱별 준비 안내](APP-SETUP.md)에 따라 로컬 실습 폴더를 열고 첫 요청과 브라우저 실행을 함께 확인합니다. CLI·VS Code·Node.js는 필수 설치에서 제외합니다.
+- GitHub 계정·Desktop은 선택입니다. 처음에는 ZIP으로 진행할 수 있습니다.
+- 앱 기능·로그인·프로젝트 연결이 5분 이상 막히면 짝과 합류합니다.
 - 지뢰찾기는 화면·입력 스타터에서 네 TODO를 하나씩 구현합니다. 코드와 테스트는 미완성 상태로 배포합니다. 30분 구현 구간에서는 지뢰 배치·숫자 계산을 우선하고 진행에 따라 빈 영역·승리로 이어 갑니다.
 - 강사는 설명 → 시연 → 참가자 따라 하기 → 완료 확인을 반복합니다. 설문과 짧은 점검은 각 구간 안에 포함합니다.
 

@@ -1,3 +1,5 @@
+> **선택 참고 · 이전 CLI 안내입니다. 현재 수업은 [세 앱 준비 안내](APP-SETUP.md)와 앱별 슬라이드를 사용합니다. CLI 설치는 필수가 아닙니다.**
+
 # Gemini CLI 버전 · 설치부터 첫 실행까지
 
 [전용 세션 슬라이드](https://arnoldchung.github.io/VibeCoding101/session-gemini.html)와 함께 사용합니다. 설치→지뢰찾기 공통 제작→Skills→내 앱 제작의 150분 흐름입니다.

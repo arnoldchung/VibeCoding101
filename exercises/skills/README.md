@@ -5,10 +5,10 @@
 ## 따라 하기 (15분)
 
 1. **0–3분:** [game-check 예제](game-check/SKILL.md)의 이름·description·절차를 읽고 직접 작성합니다.
-2. **3–6분:** VS Code에서 열어 둔 minesweeper 폴더 안의 경로로 저장합니다.
-   - Codex: `.agents/skills/game-check/SKILL.md` → `$game-check`
-   - Claude Code: `.claude/skills/game-check/SKILL.md` → `/game-check`
-   - Gemini: [공식 Agent Skills 안내](https://geminicli.com/docs/cli/skills/)에서 지원·설치·호출을 확인합니다.
+2. **3–6분:** 앱에서 열어 둔 실제 minesweeper 작업 폴더 안의 경로로 저장합니다.
+   - ChatGPT · Codex 앱: `.agents/skills/game-check/SKILL.md` → 앱의 Skill 선택 또는 이름을 지정한 요청
+   - Claude Code 앱: `.claude/skills/game-check/SKILL.md` → `/game-check`
+   - Antigravity 앱: `.agents/skills/game-check/SKILL.md` → `/game-check` 또는 이름을 지정한 요청. [공식 Skills 안내](https://antigravity.google/docs/skills)를 참고합니다.
 3. **6–10분:** 두 요청으로 사용합니다. A: “미션 1을 점검하고 예상값·실제값·미실행 검사를 구분해 주세요.” B: “게임 검사해 줘.” B에서는 범위를 먼저 확인하는지 봅니다.
 4. **10–15분:** “첫 클릭을 모서리·중앙으로 바꾸는 수동 검사 절차도 제시한다.”를 추가하고 같은 요청으로 재검사합니다.
 
