@@ -5,13 +5,15 @@
 ## 공통 순서
 
 1. 개인 노트북에 앱 사전 설치·로그인. 계정에서 로컬 프로젝트의 파일을 읽고 수정할 수 있는지 확인합니다. 설치·로그인이 어려우면 수업 시작 때 강사와 함께 확인합니다.
-2. 강사 저장소에서 Code → Download ZIP → 압축 풀기.
-3. **exercises/minesweeper**를 앱의 로컬 프로젝트로 열기.
+2. GitHub 계정·GitHub Desktop 설치와 로그인을 확인하고, 강사 저장소를 **내 계정에 Fork → Desktop으로 내 Fork를 Clone**합니다. [저장·복구 따라 하기](GITHUB.md)를 참고합니다.
+3. **Clone한 폴더 안의 exercises/minesweeper**를 앱의 로컬 프로젝트로 엽니다. Desktop은 Clone 저장소 전체를 관리하고, AI 앱은 그 안의 실습 폴더를 엽니다.
 4. “AGENTS.md와 docs/PARTICIPANT.md를 읽고 현재 작업 경로, 네 TODO 함수, 제가 열 index.html의 실제 위치를 알려 주세요. 아직 수정하지 마세요.” 요청.
 5. 실제 작업 폴더의 index.html을 브라우저로 열어 클릭·깃발·리셋 확인.
-6. 한 규칙씩 계획→구현→변경 확인→브라우저 새로고침·새 게임.
+6. 한 규칙씩 계획 → 구현 → 변경 확인 → 브라우저 새로고침·새 게임 → **Desktop에서 Commit → Push**를 반복합니다. 문제가 생기면 가장 최근의 내 커밋을 Revert하는 방법을 사용합니다.
 7. 기존 Skill과 직접 작성한 game-check 적용. 실행 검사와 미실행 항목 구분.
-8. 마지막 30분은 새 my-app 폴더에서 핵심 기능 하나를 구현·시연.
+8. 마지막 30분은 Clone 저장소 안의 새 **my-app** 폴더를 앱에서 열고 핵심 기능 하나를 구현·시연·커밋합니다.
+
+설치가 막히면 짝과 Clone 경로로 진행합니다. ZIP은 화면 실행용 대안이며 그 폴더 자체에는 Git 이력이 없어 Commit·Revert가 되지 않습니다. ZIP 수정본을 옮길 때는 Clone 안의 같은 위치로 복사하고, AI 앱과 브라우저도 Clone 위치로 다시 엽니다.
 
 ## ChatGPT · Codex 앱
 
@@ -43,7 +45,7 @@ Skill은 `.agents/skills/game-check/SKILL.md`에 저장하고 `/game-check` 또�
 
 [시작하기](https://antigravity.google/docs/getting-started) · [앱 Skills](https://antigravity.google/docs/skills)
 
-## 나만의 Skill 파일 위치 · 슬라이드 40–44
+## 나만의 Skill 파일 위치 · 슬라이드 43–47
 
 **기준 폴더는 저장소 맨 위가 아니라 앱에서 연 `exercises/minesweeper`입니다.** 아래 폴더 하나를 선택한 앱에 맞춰 만들고 그 안에 파일을 저장합니다.
 
@@ -74,4 +76,4 @@ minesweeper/
 
 ## Superpowers 설치
 
-각 앱의 37쪽에 설치 안내를 추가했습니다. [앱별 설치·확인 상세 안내](SUPERPOWERS-SETUP.md)를 참고하고, 설치 후 38쪽의 지뢰찾기 프롬프트를 사용하세요.
+각 앱의 40쪽에 설치 안내를 추가했습니다. [앱별 설치·확인 상세 안내](SUPERPOWERS-SETUP.md)를 참고하고, 설치 후 41쪽의 지뢰찾기 프롬프트를 사용하세요.

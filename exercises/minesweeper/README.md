@@ -4,15 +4,15 @@
 
 이 저장소는 완성된 지뢰찾기 게임이 아닙니다. 9 × 9 보드, 클릭, 깃발, 키보드 조작, 다시 시작, 상태 표시가 준비되어 있습니다. 참가자는 `src/engine.js`의 네 함수를 완성합니다. 현재 스타터에는 지뢰가 없으며, 클릭한 한 칸만 열립니다. 이 동작은 버그가 아니라 과제를 남겨 둔 상태입니다.
 
-## 5분 안에 시작하기
+## 실습 시작하기
 
 1. [이 저장소 Fork하기](https://github.com/arnoldchung/VibeCoding101/fork)를 눌러 **Owner를 본인 계정**으로 선택합니다.
 2. 본인 Fork의 `Code` 메뉴에서 주소를 복사하고 GitHub Desktop의 `File > Clone Repository > URL`에 붙여 넣습니다. **강사 저장소가 아닌 본인 Fork를 Clone**하세요.
 3. Clone한 폴더의 `exercises/minesweeper/index.html`을 브라우저에서 엽니다. **Node.js, npm install, API 키가 필요 없습니다.**
 4. 보드 클릭·깃발·다시 시작을 확인합니다. `exercises/minesweeper` 폴더를 AI 코딩 도구에서 엽니다.
-5. `feature/mine-placement` 브랜치를 만들고 [미션 1](docs/PARTICIPANT.md#미션-1-지뢰-배치)을 시작합니다.
+5. 내 Fork의 `main`에서 [미션 1](docs/PARTICIPANT.md#미션-1-지뢰-배치)을 시작합니다.
 
-설치가 어려우면 [브라우저 대안](docs/PARTICIPANT.md#설치가-어려운-경우)을 참고하세요. Fork 자체는 앱을 실행하거나 배포하는 기능이 아닙니다.
+설치가 어려우면 [브라우저 대안](docs/PARTICIPANT.md)을 참고하세요. Fork 자체는 앱을 실행하거나 배포하는 기능이 아닙니다. 각 미션의 동작을 확인한 뒤 Desktop에서 변경 비교 → Commit → Push를 반복합니다. [저장·복구 안내](../../docs/GITHUB.md)를 참고하세요.
 
 ## 제공하는 것과 구현할 것
 

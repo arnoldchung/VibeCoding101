@@ -2,9 +2,11 @@
 
 ## 시작 전
 
-수업 저장소에서 **Code → Download ZIP**을 눌러 내려받고 압축을 풉니다. 앱에서 `exercises/minesweeper`를 로컬 프로젝트로 연 뒤, 같은 위치의 `index.html`을 브라우저로 엽니다. 클릭·깃발·다시 시작을 확인하고, 지뢰가 없는 미완성 상태를 먼저 관찰하세요. GitHub의 코드 화면은 게임 실행 화면이 아닙니다.
+GitHub와 Desktop에 로그인한 뒤 수업 저장소를 **내 계정에 Fork → 내 Fork를 Desktop으로 Clone**합니다. AI 앱에서 Clone 안의 `exercises/minesweeper`를 열고 같은 위치의 `index.html`을 브라우저에서 엽니다. 클릭·깃발·다시 시작과 아직 지뢰가 없는 미완성 상태를 먼저 관찰하세요.
 
-앱에 현재 작업 경로를 확인하면 ZIP·복사본·Git Clone 폴더를 혼동하지 않을 수 있습니다. GitHub 계정·Git 설치는 시작 단계에 필요하지 않습니다. Fork·Clone·Commit은 마지막 선택 실습에서 진행합니다.
+Desktop은 Clone 저장소 전체를 관리합니다. 수업에서는 내 Fork의 main에서 작업하며, 기능 하나를 확인할 때마다 **Changes → 변경 비교 → Commit → Push**를 반복합니다. 최신 내 변경을 취소할 때는 History의 **Revert Changes in Commit**을 사용합니다. [저장·복구 안내](../../../docs/GITHUB.md)를 참고하세요.
+
+ZIP은 실행용 대안이며 그 폴더에는 Git 이력이 없습니다. AI 앱과 브라우저가 실제로 같은 Clone 위치를 사용하는지 확인합니다.
 
 ## 미션 1 지뢰 배치
 

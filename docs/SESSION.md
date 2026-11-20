@@ -7,12 +7,12 @@
 | 시간 | 활동 | 완료 확인 |
 | --- | --- | --- |
 | 0–10분 | 시작 설문·바이브 코딩 소개 | AI와 사람의 역할 이해 |
-| 10–35분 | 앱 로그인·프로젝트 폴더 열기·첫 실행 | 첫 대화와 보드 실행 |
+| 10–35분 | 앱·GitHub 준비·Fork/Clone·저장/복구 안내·첫 실행 | 내 Fork의 Clone 폴더에서 보드 실행 |
 | 35–50분 | 지뢰찾기 요구사항·프롬프트·Plan/Edit/Auto | 구현 범위와 성공 조건 합의 |
-| 50–80분 | 지뢰찾기 네 규칙을 한 가지씩 구현·검사 | 작동한 미션과 테스트 결과 기록 |
+| 50–80분 | 지뢰찾기 규칙을 한 가지씩 구현·검사·Commit/Push | 미션별 변경 이력과 테스트 결과 |
 | 80–95분 | Skills·마켓 이해, 준비된 Skill 활용 | 지뢰찾기 검사 보고서 비교 |
 | 95–110분 | 나만의 game-check SKILL.md 작성·호출·개선 | 두 요청·한 줄 수정·재검사 |
-| 110–120분 | 결과 공유·GitHub 기록 시연 | 대표 동작과 변경 기록 설명 |
+| 110–120분 | 결과 공유·기록 확인·Revert 연습 | 대표 동작·변경 이력·취소 커밋 확인 |
 | 120–145분 | 나만의 작은 앱 제작·테스트·수정 | 한 화면·핵심 기능 하나 실행 |
 | 145–150분 | 짧은 시연·마무리 | 확인한 결과와 남은 과제 공유 |
 
@@ -21,7 +21,7 @@
 - 개인 노트북·충전기·인터넷·사용할 AI 계정을 준비하고, 앱 하나를 미리 설치·로그인합니다. 수업에서는 로그인 상태와 실습 폴더 연결부터 함께 확인하고, 사전 설치가 어려웠던 참가자는 강사와 진행합니다.
 - [ChatGPT · Codex](https://arnoldchung.github.io/VibeCoding101/session.html), [Claude · Code](https://arnoldchung.github.io/VibeCoding101/session-claude.html), [Google Antigravity](https://arnoldchung.github.io/VibeCoding101/session-antigravity.html) 앱 버전 중 하나를 선택합니다.
 - [앱별 준비 안내](APP-SETUP.md)에 따라 로컬 실습 폴더를 열고 첫 요청과 브라우저 실행을 함께 확인합니다. CLI·VS Code·Node.js는 필수 설치에서 제외합니다.
-- GitHub 계정·Desktop은 선택입니다. 처음에는 ZIP으로 진행할 수 있습니다.
+- GitHub 계정과 GitHub Desktop 설치·로그인을 사전에 준비합니다. 9쪽 뒤의 10–12쪽에서 버전 관리 개념, Fork·Clone, Commit·Push·Revert를 안내합니다. 설치가 막히면 짝 활동으로 진행하며 ZIP 단독 폴더에는 Git 이력이 없음을 설명합니다.
 - 앱 기능·로그인·프로젝트 연결이 5분 이상 막히면 짝과 합류합니다.
 - 지뢰찾기는 화면·입력이 준비된 시작용 프로젝트에서 네 TODO를 하나씩 구현합니다. 코드와 테스트는 미완성 상태로 배포합니다. 30분 구현 구간에서는 지뢰 배치·숫자 계산을 우선하고 진행에 따라 빈 영역·승리로 이어 갑니다.
 - 강사는 설명 → 시연 → 참가자 따라 하기 → 완료 확인을 반복합니다. 시작 설문 뒤에는 각 구간에서 직접 해 보고 짧게 결과를 확인합니다.
@@ -30,13 +30,13 @@
 
 프롬프트는 지뢰 배치 조건으로, 기존 Skill은 minesweeper-workshop으로, 직접 만드는 Skill은 [game-check](../exercises/skills/game-check/SKILL.md)로 연결합니다. [실습 안내·기록지](../exercises/skills/README.md)를 사용합니다. 실제 실행과 미실행 검사를 구분합니다.
 
-GitHub는 110–120분에 강사 시연과 준비된 참가자의 기록 활동으로 진행합니다. Fork·Clone·복구의 상세 설명은 [GitHub 안내](GITHUB.md)를 참고합니다. ZIP 수정본과 Clone 폴더를 혼동하지 않습니다.
+GitHub는 개발 시작 전인 10–35분에 준비합니다. 각 미션의 동작을 확인한 뒤 변경 내용을 비교하고 Commit·Push합니다. 110–120분에는 기록과 공유 상태를 확인하고, README 문장 한 줄을 추가·커밋·Revert하는 복구 연습을 합니다. Fork·Clone·복구의 상세 설명은 [GitHub 안내](GITHUB.md)를 참고합니다. ZIP 수정본과 Clone 폴더를 혼동하지 않습니다.
 
 ## 마지막 30분
 
 120–125분에 사용자·핵심 기능 하나·성공 조건을 정합니다. 125–137분 구현과 브라우저 실행, 137–145분 테스트·수정·저장, 145–150분 짧은 시연을 합니다. 인원이 많으면 짝에게 시연하고 대표 사례만 전체 공유합니다.
 
-새 앱은 별도 my-app 폴더에서 시작합니다. 지뢰찾기 전용 AGENTS.md와 game-check를 그대로 강제하지 말고 용도에 맞게 조정합니다. 필요하면 [idea-to-spec](../exercises/skills/idea-to-spec/SKILL.md)을 참고합니다.
+새 앱은 Clone한 저장소 안에 별도 my-app 폴더를 만들고 이 폴더를 AI 앱에서 열어 시작합니다. Desktop은 같은 저장소를 사용해 내 앱의 변경도 Commit·Push합니다. 지뢰찾기 전용 AGENTS.md와 game-check를 그대로 강제하지 말고 용도에 맞게 조정합니다. 필요하면 [idea-to-spec](../exercises/skills/idea-to-spec/SKILL.md)을 참고합니다.
 
 ## 공유할 내용
 

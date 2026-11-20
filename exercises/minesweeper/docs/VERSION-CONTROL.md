@@ -1,5 +1,7 @@
 # Fork에서 내 결과물까지
 
+개발 전 10–12쪽에서 준비하고 미션마다 저장합니다. 수업의 기본 경로는 내 Fork의 main입니다. [공통 저장·복구 안내](../../../docs/GITHUB.md)를 함께 참고하세요.
+
 ## Fork와 Clone
 
 강사: `arnoldchung/VibeCoding101` → Fork → 참가자: `내계정/VibeCoding101` → Clone → 내 컴퓨터 폴더.
@@ -9,7 +11,7 @@ Fork는 GitHub에 본인 복사본을 만드는 일, Clone은 그 복사본과 �
 ## 첫 변경 기록
 
 1. Desktop의 저장소 소유자가 본인인지 확인합니다.
-2. `feature/minesweeper` 브랜치를 만듭니다.
+2. 수업에서는 `main`을 선택합니다. 별도 실험 브랜치는 수업 후 선택 활동입니다.
 3. README의 실습 기록에 이름 대신 별명이나 이니셜과 오늘의 목표를 적습니다.
 4. 파일 저장 → Changes의 Diff 확인 → 메시지 작성 → Commit.
 5. Publish branch 또는 Push origin을 누르고 본인 GitHub에서 확인합니다.
@@ -20,9 +22,9 @@ Fork는 GitHub에 본인 복사본을 만드는 일, Clone은 그 복사본과 �
 
 미션 1 구현 → 개수와 첫 클릭 확인 → 커밋 → Push. 다음 미션도 같은 순서로 진행합니다. 테스트가 아직 실패하면 어떤 항목이 미완성인지 README에 남깁니다. 완성하지 않은 상태를 성공했다고 쓰지 않습니다.
 
-## PR의 대상 확인
+## 수업 후 선택 · 브랜치와 PR
 
-Fork에서 PR을 열면 강사 원본이 기본 대상으로 선택될 수 있습니다. **수업의 일반 PR 연습은 본인 Fork의 main을 base로 선택**하세요.
+PR을 연습하려면 먼저 feature/minesweeper 브랜치를 만들어 변경·커밋·Publish합니다. Fork에서 PR을 열면 강사 원본이 기본 대상으로 선택될 수 있습니다. **수업의 일반 PR 연습은 본인 Fork의 main을 base로 선택**하세요.
 
 - base repository: `내계정/VibeCoding101`, base branch: `main`
 - head repository: `내계정/VibeCoding101`, compare branch: `feature/minesweeper`
