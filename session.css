@@ -7,3 +7,8 @@
 
 /* Illustrated introduction to the shared class game */
 .minesweeper-intro figure{margin:0;text-align:center}.minesweeper-intro img{display:block;width:100%;height:auto;max-height:45vh;object-fit:contain}.minesweeper-intro figcaption{font-size:14px;color:#526978;line-height:1.6;margin-top:10px}.minesweeper-intro ul{font-size:.95rem}.minesweeper-intro li+li{margin-top:16px}
+
+/* Compact, readable app installation steps */
+.install-steps{font-size:.9rem;line-height:1.65}.install-steps li+li{margin-top:10px}
+
+.slide[data-install] .slide-inner{padding-top:24px;padding-bottom:24px}.slide[data-install] h1{margin-bottom:20px}.slide[data-install] pre{padding:16px}.slide[data-install] .callout{margin-top:18px}.slide[data-install] .sources{margin-top:16px}
