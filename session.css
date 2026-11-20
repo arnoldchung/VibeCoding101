@@ -4,3 +4,6 @@
 
 /* Opening survey QR: keep the original image and a clear white margin. */
 .menti-access{display:flex;align-items:center;gap:16px;margin-top:24px}.menti-qr-link{display:block;flex:0 0 168px;background:white;padding:12px;border:1px solid #cfdee2;border-radius:6px}.menti-qr-image{display:block;width:100%;height:auto;aspect-ratio:1}.menti-access .menti-join{margin-top:0}.menti-access .menti-address{font-size:14px}@media(max-width:1000px){.menti-access{flex-wrap:wrap}}
+
+/* Illustrated introduction to the shared class game */
+.minesweeper-intro figure{margin:0;text-align:center}.minesweeper-intro img{display:block;width:100%;height:auto;max-height:45vh;object-fit:contain}.minesweeper-intro figcaption{font-size:14px;color:#526978;line-height:1.6;margin-top:10px}.minesweeper-intro ul{font-size:.95rem}.minesweeper-intro li+li{margin-top:16px}
