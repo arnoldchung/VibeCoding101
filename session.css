@@ -14,18 +14,22 @@
 .slide[data-install] .slide-inner{padding-top:24px;padding-bottom:24px}.slide[data-install] h1{margin-bottom:20px}.slide[data-install] pre{padding:16px}.slide[data-install] .callout{margin-top:18px}.slide[data-install] .sources{margin-top:16px}
 
 /* Keep the longer workshop instructions readable at 1280 × 720. */
-.slide:is(#slide-38,#slide-41,#slide-43,#slide-46,#slide-47) .slide-inner{padding-top:20px;padding-bottom:20px}
-.slide:is(#slide-38,#slide-41,#slide-43,#slide-46,#slide-47) h1{margin-bottom:24px}
-.slide:is(#slide-38,#slide-41,#slide-43,#slide-46,#slide-47) .callout{margin-top:20px}
+.slide:is(#slide-39,#slide-42,#slide-44,#slide-47,#slide-48) .slide-inner{padding-top:20px;padding-bottom:20px}
+.slide:is(#slide-39,#slide-42,#slide-44,#slide-47,#slide-48) h1{margin-bottom:24px}
+.slide:is(#slide-39,#slide-42,#slide-44,#slide-47,#slide-48) .callout{margin-top:20px}
 .slide[data-install] .slide-inner{padding-top:22px;padding-bottom:22px}
 
-.slide:is(#slide-38,#slide-41,#slide-43,#slide-46,#slide-47) .sources{margin-top:16px}
+.slide:is(#slide-39,#slide-42,#slide-44,#slide-47,#slide-48) .sources{margin-top:16px}
 .slide[data-install] .slide-body{font-size:.9rem}
 
 /* Checkpoints throughout the shared development activity. */
 .checkpoint{font-size:.72rem;line-height:1.5;color:#087d76;border-top:1px solid #c4d7dc;padding-top:10px;margin:16px 0 0;font-weight:700}
-.slide:is(#slide-11,#slide-12,#slide-30,#slide-31,#slide-32,#slide-33,#slide-50) .slide-inner{padding-top:20px;padding-bottom:20px}
-.slide:is(#slide-11,#slide-12,#slide-30,#slide-31,#slide-32,#slide-33,#slide-50) h1{margin-bottom:22px}
-.slide:is(#slide-11,#slide-12,#slide-30,#slide-31,#slide-32,#slide-33,#slide-50) .callout{margin-top:18px}
-.slide:is(#slide-11,#slide-12,#slide-50) .sources{margin-top:14px}
-.slide:is(#slide-11,#slide-12,#slide-50) .slide-body{font-size:.9rem}
+.slide:is(#slide-12,#slide-13,#slide-31,#slide-32,#slide-33,#slide-34,#slide-51) .slide-inner{padding-top:20px;padding-bottom:20px}
+.slide:is(#slide-12,#slide-13,#slide-31,#slide-32,#slide-33,#slide-34,#slide-51) h1{margin-bottom:22px}
+.slide:is(#slide-12,#slide-13,#slide-31,#slide-32,#slide-33,#slide-34,#slide-51) .callout{margin-top:18px}
+.slide:is(#slide-12,#slide-13,#slide-51) .sources{margin-top:14px}
+.slide:is(#slide-12,#slide-13,#slide-51) .slide-body{font-size:.9rem}
+
+.illustrated-slide{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:clamp(16px,4vw,52px);align-items:center}
+.illustrated-slide img{display:block;width:100%;height:auto;max-height:min(38vh,373px);object-fit:contain}
+@media(max-width:700px){.illustrated-slide{grid-template-columns:1fr}}

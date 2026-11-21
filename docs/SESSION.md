@@ -7,7 +7,7 @@
 | 시간 | 활동 | 완료 확인 |
 | --- | --- | --- |
 | 0–10분 | 시작 설문·바이브 코딩 소개 | AI와 사람의 역할 이해 |
-| 10–35분 | 앱·GitHub 준비·Fork/Clone·저장/복구 안내·첫 실행 | 내 Fork의 Clone 폴더에서 보드 실행 |
+| 10–35분 | 앱·GitHub 준비·Fork/Clone·저장/복구 안내·프롬프트 예시·첫 실행 | 내 Fork의 Clone 폴더에서 보드 실행 |
 | 35–50분 | 지뢰찾기 요구사항·프롬프트·Plan/Edit/Auto | 구현 범위와 성공 조건 합의 |
 | 50–80분 | 지뢰찾기 규칙을 한 가지씩 구현·검사·Commit/Push | 미션별 변경 이력과 테스트 결과 |
 | 80–95분 | Skills·마켓 이해, 준비된 Skill 활용 | 지뢰찾기 검사 보고서 비교 |
@@ -20,8 +20,8 @@
 
 - 개인 노트북·충전기·인터넷·사용할 AI 계정을 준비하고, 앱 하나를 미리 설치·로그인합니다. 수업에서는 로그인 상태와 실습 폴더 연결부터 함께 확인하고, 사전 설치가 어려웠던 참가자는 강사와 진행합니다.
 - [ChatGPT · Codex](https://arnoldchung.github.io/VibeCoding101/session.html), [Claude · Code](https://arnoldchung.github.io/VibeCoding101/session-claude.html), [Google Antigravity](https://arnoldchung.github.io/VibeCoding101/session-antigravity.html) 앱 버전 중 하나를 선택합니다.
-- [앱별 준비 안내](APP-SETUP.md)에 따라 로컬 실습 폴더를 열고 첫 요청과 브라우저 실행을 함께 확인합니다. CLI·VS Code·Node.js는 필수 설치에서 제외합니다.
-- GitHub 계정과 GitHub Desktop 설치·로그인을 사전에 준비합니다. 9쪽 뒤의 10–12쪽에서 버전 관리 개념, Fork·Clone, Commit·Push·Revert를 안내합니다. 설치가 막히면 짝 활동으로 진행하며 ZIP 단독 폴더에는 Git 이력이 없음을 설명합니다.
+- [앱별 준비 안내](APP-SETUP.md)에 따라 좋은 프롬프트의 구성과 발표 타이머 예시를 본 뒤, 로컬 실습 폴더를 열고 첫 요청과 브라우저 실행을 함께 확인합니다. CLI·VS Code·Node.js는 필수 설치에서 제외합니다.
+- GitHub 계정과 GitHub Desktop 설치·로그인을 사전에 준비합니다. 10쪽 뒤의 11–13쪽에서 버전 관리 개념, Fork·Clone, Commit·Push·Revert를 안내합니다. 설치가 막히면 짝 활동으로 진행하며 ZIP 단독 폴더에는 Git 이력이 없음을 설명합니다.
 - 앱 기능·로그인·프로젝트 연결이 5분 이상 막히면 짝과 합류합니다.
 - 지뢰찾기는 화면·입력이 준비된 시작용 프로젝트에서 네 TODO를 하나씩 구현합니다. 코드와 테스트는 미완성 상태로 배포합니다. 30분 구현 구간에서는 지뢰 배치·숫자 계산을 우선하고 진행에 따라 빈 영역·승리로 이어 갑니다.
 - 강사는 설명 → 시연 → 참가자 따라 하기 → 완료 확인을 반복합니다. 시작 설문 뒤에는 각 구간에서 직접 해 보고 짧게 결과를 확인합니다.

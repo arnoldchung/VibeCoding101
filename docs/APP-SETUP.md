@@ -45,7 +45,7 @@ Skill은 `.agents/skills/game-check/SKILL.md`에 저장하고 `/game-check` 또�
 
 [시작하기](https://antigravity.google/docs/getting-started) · [앱 Skills](https://antigravity.google/docs/skills)
 
-## 나만의 Skill 파일 위치 · 슬라이드 43–47
+## 나만의 Skill 파일 위치 · 슬라이드 44–48
 
 **기준 폴더는 저장소 맨 위가 아니라 앱에서 연 `exercises/minesweeper`입니다.** 아래 폴더 하나를 선택한 앱에 맞춰 만들고 그 안에 파일을 저장합니다.
 
@@ -76,4 +76,4 @@ minesweeper/
 
 ## Superpowers 설치
 
-각 앱의 40쪽에 설치 안내를 추가했습니다. [앱별 설치·확인 상세 안내](SUPERPOWERS-SETUP.md)를 참고하고, 설치 후 41쪽의 지뢰찾기 프롬프트를 사용하세요.
+각 앱의 41쪽에 설치 안내를 추가했습니다. [앱별 설치·확인 상세 안내](SUPERPOWERS-SETUP.md)를 참고하고, 설치 후 42쪽의 지뢰찾기 프롬프트를 사용하세요.
